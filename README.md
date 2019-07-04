@@ -83,12 +83,16 @@ TRAINING THE MODEL
 ---
 I trained this code on my Acer-Predator helios 300 which took a time of almost half an hour for 10000 steps and around 32k images, with an nvidia GTX GeForce 1050Ti GPU.
 
+SOURCE CODE
+---
+find it in anime-facegan.py
+
 MANGA-GENERATOR RESULTS
 ---
 After training for 10000 steps, the results came out to be pretty cool ad satisfying. Have A Look!
 ![alt text](https://raw.githubusercontent.com/nikitaa30/Manga-GAN/master/ezgif.com-gif-maker.gif)
 
-![alt text](https://raw.githubusercontent.com/nikitaa30/Manga-GAN/master/collage (1).jpg)
+![alt text](https://raw.githubusercontent.com/nikitaa30/Manga-GAN/master/collage(1).jpg)
 
 
 I think training for a longer duration and on a Bigger dataset would improve the results further(Some of the faces were scary weird!. Not the conventional Manga, I must say:D)
