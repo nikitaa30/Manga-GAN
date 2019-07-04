@@ -15,6 +15,8 @@ Quick Overview of Generative Adversarial Networks
 ---
 In Generative Adversarial Networks, two networks train and compete against each other, resulting in mutual improvisation. The generator misleads the discriminator by creating compelling fake inputs and tries to fool the discriminator into thinking of these as real inputs . The discriminator tells if an input is real or fake.
 
+![alt text](https://raw.githubusercontent.com/nikitaa30/Manga-GAN/master/medium_blog/gan.jpg)
+
 **There are 3 major steps in the training of a GAN:**
 1. using the generator to create fake inputs based on random noise or in our case., random normal noise.
 2. training the discriminator with both real and fake inputs(either simultaneously by concatenating real and fake inputs, or one after the other, the latter one being preferred).
@@ -58,6 +60,8 @@ https://www.kaggle.com/aadilmalik94/animecharacterfaces
 
 A Glimpse of the Dataset-
 ---
+![alt text](https://raw.githubusercontent.com/nikitaa30/Manga-GAN/master/medium_blog/dataset.PNG)
+
 THE MODEL
 ---
 
@@ -82,6 +86,9 @@ I trained this code on my Acer-Predator helios 300 which took a time of almost h
 MANGA-GENERATOR RESULTS
 ---
 After training for 10000 steps, the results came out to be pretty cool ad satisfying. Have A Look!
+![alt text](https://raw.githubusercontent.com/nikitaa30/Manga-GAN/master/medium_blog/ezgif.com-gif-maker.gif)
+
+![alt text](https://raw.githubusercontent.com/nikitaa30/Manga-GAN/master/medium_blog/collage (1).jpg)
 
 
 I think training for a longer duration and on a Bigger dataset would improve the results further(Some of the faces were scary weird!. Not the conventional Manga, I must say:D)
