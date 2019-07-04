@@ -92,7 +92,7 @@ MANGA-GENERATOR RESULTS
 After training for 10000 steps, the results came out to be pretty cool ad satisfying. Have A Look!
 ![alt text](https://raw.githubusercontent.com/nikitaa30/Manga-GAN/master/ezgif.com-gif-maker.gif)
 
-![alt text](https://raw.githubusercontent.com/nikitaa30/Manga-GAN/master/collage(1).jpg)
+![alt text](https://raw.githubusercontent.com/nikitaa30/Manga-GAN/master/result.jpg)
 
 
 I think training for a longer duration and on a Bigger dataset would improve the results further(Some of the faces were scary weird!. Not the conventional Manga, I must say:D)
