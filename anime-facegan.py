@@ -5,8 +5,6 @@
 
 
 import os
-os.environ["KERAS_BACKEND"] = "tensorflow"
-import numpy as np
 from sklearn.utils import shuffle
 import time
 import cv2
@@ -27,7 +25,6 @@ from keras.layers.advanced_activations import LeakyReLU
 import matplotlib.pyplot as plt
 from misc_layers import MinibatchDiscrimination, SubPixelUpscaling, CustomLRELU, bilinear2x
 from keras_contrib.layers import SubPixelUpscaling
-from keras.datasets import mnist
 import keras.backend as K
 from keras.initializers import RandomNormal
 K.set_image_dim_ordering('tf')
