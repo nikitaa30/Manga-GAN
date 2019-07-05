@@ -117,7 +117,7 @@ def get_disc_normal(image_shape=(64,64,3)):
     
     discriminator = Dense(1)(discriminator)
     discriminator = Activation('sigmoid')(discriminator)
-    
+    #also try the SGD optimiser, might work better for a few learning rates.
     dis_opt = Adam(lr=0.0002, beta_1=0.5)
     discriminator_model = Model(input = dis_input, output = discriminator)
     discriminator_model.compile(loss='binary_crossentropy', optimizer=dis_opt, metrics=['accuracy'])
@@ -292,8 +292,10 @@ for step in range(num_steps):
         
     discriminator.trainable = True
     generator.trainable = False
-    #training the discriminator on real and fake data can be done together, i.e., on the data_x and data_y, OR it can be done 
-    #one by one as performed below
+    #training the discriminator on real and fake data can be done together, i.e., 
+    #on the data_x and data_y, OR it can be done 
+    #one by one as performed below. This is the safer choice and gives better results 
+    #as compared to combining the real and generated samples.
     dis_metrics_real = discriminator.train_on_batch(real_data_X,real_data_Y)  
     dis_metrics_fake = discriminator.train_on_batch(fake_data_X,fake_data_Y)   
     
