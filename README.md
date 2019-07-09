@@ -87,6 +87,10 @@ SOURCE CODE
 ---
 find it in anime-facegan.py
 
+CHECK OUT MY ARTICLE ON MEDIUM
+---
+https://medium.com/@nikitasharma_43692/my-mangagan-building-my-first-generative-adversarial-network-2ec1920257e3?sk=0eef45a3ef8d8b13f23f620abe48ef07
+
 MANGA-GENERATOR RESULTS
 ---
 After training for 10000 steps, the results came out to be pretty cool ad satisfying. Have A Look!
